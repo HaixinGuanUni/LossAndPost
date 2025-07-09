@@ -1,2 +1,2 @@
 # LossAndPost
-Contain the speech sample for lightweight SE method
+The results include those from the lightweight models DCTCLD and LiSenNet. Here, the suffix "_L" denotes the use of the NDA loss function method; models without this suffix employ the original methods of the two models. The identifier "_LP" indicates the combined use of the NDA loss function and post-processing. "_no overestimation protection" means the overestimation protection strategy mentioned in the paper was not used, while "_no underestimation compensation" means the noise tracking compensation for noise underestimation was not applied. "Noisy Data" represents the original unprocessed noisy signals.
